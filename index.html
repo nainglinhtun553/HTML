@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML + CSS</title>
+	<!-- step -2 -->
+	<style>
+		
+
+		/*scroll-behavior property and smooth is mean click the a tag reaching to a tag reference section.*/
+		html{
+			scroll-behavior: smooth;
+		}
+
+
+		.section{
+			width:100%;
+			height:100vh;
+		}
+
+
+		/*nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent.*/
+
+		.section:nth-child(even){
+			background-color:#DCDCDC50;
+		}
+		.section:nth-child(odd){
+			background-color:#ADFF2F;
+		}
+				
+	</style>
+</head>
+<body>
+
+
+	<!-- step-1 -->	
+	<!-- blink target attribute mean open in new tag. -->
+	<!-- <a href="http://google.com" target="blink">go to google</a> -->
+
+	<!-- only id name can call from a tags. -->
+	<a href="#home" class="nav-link">home</a>
+	<a href="#about" class="nav-link">about</a>
+	<a href="#services" class="nav-link">services</a>
+	<a href="#blog" class="nav-link">blog</a>
+	<a href="#contact" class="nav-link">contact</a>
+	
+	<!-- section element is likely to div tags -->
+	<section class="section" id="home">
+		<h1>This is Home</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fuga! Ullam repellendus quam laboriosam excepturi a magnam, aspernatur dolor. Hic placeat est suscipit recusandae accusamus cumque quos ea, excepturi dicta?</p>
+	</section>
+	<section class="section" id="about">
+		<h1>This is About</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo id, optio suscipit blanditiis, libero cum mollitia. Quisquam dolor voluptatum illum, consequuntur totam vero amet doloribus quaerat maiores. Non, aut, laboriosam.</p>
+	</section>
+	<section class="section" id="services">
+		<h1>This is Services</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem voluptatem iusto saepe fugiat similique deleniti, ipsa nihil hic sequi, cumque facilis illum nulla explicabo beatae quaerat animi quisquam, eveniet illo!</p>
+	</section>
+	<section class="section" id="blog">
+		<h1>This is Blog</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores assumenda repellendus labore, placeat cupiditate harum dolores corporis similique sint, nostrum deleniti ad voluptate suscipit ex officiis soluta.</p>
+	</section>
+	<section class="section" id="contact">
+		<h1>This is Contact</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantium earum consequuntur, unde nam et mollitia eaque incidunt sed aliquid quam voluptatum saepe sint at sunt!</p>
+	</section>
+</body>
+</html>
